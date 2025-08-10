@@ -1,0 +1,23 @@
+
+{% load static %}
+{% include "image.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY body</title>
+</head>
+<body bgcolor ="#faebd7">
+
+{% block content2 %}
+
+{% endblock %}
+{% block content3 %}
+    <img src="{% static 'tempapp/images/3e478758aac09269d016cbc13000ebbd.jpg' %}" alt="My image">
+    <button type="button" class="btn btn-outline-primary">Next Page</button>
+{% endblock %}
+
+
+
+</body>
+</html>
